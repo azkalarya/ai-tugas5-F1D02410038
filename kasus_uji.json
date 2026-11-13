@@ -1,0 +1,5 @@
+[
+  {"id": 1, "nama": "Memenuhi semua syarat", "jawaban_ya": ["ipk_minimal", "semester_aktif", "tidak_mampu", "tidak_ada_beasiswa_lain", "bebas_pelanggaran"], "harapan": ["LAYAK_BEASISWA"]},
+  {"id": 2, "nama": "Terkena sanksi/pelanggaran", "jawaban_ya": ["ipk_minimal", "semester_aktif", "tidak_mampu", "tidak_ada_beasiswa_lain"], "harapan": ["GAGAL_ADMINISTRASI"]},
+  {"id": 3, "nama": "IPK kurang, syarat lain ada", "jawaban_ya": ["semester_aktif", "tidak_mampu", "tidak_ada_beasiswa_lain", "bebas_pelanggaran"], "harapan": []}
+]

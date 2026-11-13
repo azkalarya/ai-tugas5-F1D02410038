@@ -1,0 +1,39 @@
+{
+  "judul": "Kelayakan Penerima Beasiswa Prestasi/Bantuan",
+  "batas": "Aturan didasarkan pada pedoman seleksi beasiswa umum. Keputusan akhir tetap melalui verifikasi panitia.",
+  "sumber": {
+    "S1": {
+      "judul": "Panduan Umum Beasiswa Mahasiswa",
+      "penerbit": "Biro Kemahasiswaan",
+      "url": "https://kemahasiswaan.contoh.ac.id/panduan",
+      "diakses": "12 November 2026"
+    },
+    "S2": {
+      "judul": "Syarat Administrasi dan Akademik Beasiswa",
+      "penerbit": "Tim Seleksi Beasiswa",
+      "url": "https://beasiswa.contoh.ac.id/",
+      "diakses": "12 November 2026"
+    }
+  },
+  "fakta": {
+    "ipk_minimal": "Apakah IPK minimal 3.00",
+    "semester_aktif": "Apakah sedang duduk di semester 2 sampai 6",
+    "tidak_mampu": "Apakah berasal dari keluarga kurang mampu (ada SKTM/KIP)",
+    "tidak_ada_beasiswa_lain": "Apakah sedang tidak menerima beasiswa lain",
+    "bebas_pelanggaran": "Apakah tidak pernah mendapat sanksi akademik/disiplin"
+  },
+  "fakta_turunan": {
+    "syarat_akademik_ok": "syarat akademik terpenuhi",
+    "syarat_administrasi_ok": "syarat administrasi terpenuhi",
+    "LAYAK_BEASISWA": "LAYAK Menerima Beasiswa",
+    "GAGAL_ADMINISTRASI": "TIDAK LAYAK: terkendala administrasi atau sanksi"
+  },
+  "kesimpulan_akhir": ["LAYAK_BEASISWA", "GAGAL_ADMINISTRASI"],
+  "aturan": [
+    {"id": "R1", "jika": ["ipk_minimal", "semester_aktif"], "mode": "dan", "maka": "syarat_akademik_ok", "sumber": ["S1"]},
+    {"id": "R2", "jika": ["tidak_mampu", "tidak_ada_beasiswa_lain", "bebas_pelanggaran"], "mode": "dan", "maka": "syarat_administrasi_ok", "sumber": ["S1", "S2"]},
+    {"id": "R3", "jika": ["syarat_akademik_ok", "syarat_administrasi_ok"], "mode": "dan", "maka": "LAYAK_BEASISWA", "sumber": ["S1", "S2"]},
+    {"id": "R4", "jika": ["!bebas_pelanggaran"], "mode": "dan", "maka": "GAGAL_ADMINISTRASI", "sumber": ["S2"]},
+    {"id": "R5", "jika": ["syarat_akademik_ok", "!tidak_mampu"], "mode": "dan", "maka": "GAGAL_ADMINISTRASI", "sumber": ["S1"]}
+  ]
+}
