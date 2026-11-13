@@ -76,15 +76,15 @@ Tiga kasus berikut dijalankan dengan `python sistem_pakar.py --kasus N`.
 
 **Kasus 1: Memenuhi semua syarat (`LAYAK_BEASISWA`)**
 
-![Kasus 1](screenshots/kasus1.png)
+![Kasus 1](kasus1.png)
 
 **Kasus 2: Terkena sanksi disiplin (`GAGAL_ADMINISTRASI`)**
 
-![Kasus 2](screenshots/kasus2.png)
+![Kasus 2](kasus2.png)
 
 **Kasus 3: IPK kurang dari ketentuan (tidak ada kesimpulan)**
 
-![Kasus 3](screenshots/kasus3.png)
+![Kasus 3](kasus3.png)
 
 ### Ringkasan kasus uji
 
