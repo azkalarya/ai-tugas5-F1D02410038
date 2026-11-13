@@ -37,8 +37,9 @@ python sistem_pakar.py --uji      # jalankan semua kasus uji dan cek hasilnya
 
 | Kode | Judul | Penerbit | URL | Diakses |
 |---|---|---|---|---|
-| S1 | Panduan Umum Beasiswa Mahasiswa | Biro Kemahasiswaan | https://kemahasiswaan.contoh.ac.id/panduan | 12 November 2026 |
-| S2 | Syarat Administrasi dan Akademik Beasiswa | Tim Seleksi Beasiswa | https://beasiswa.contoh.ac.id/ | 12 November 2026 |
+| S1 | Sistem Pendukung Keputusan Pemberian Beasiswa Kepada Peserta Didik Baru
+Menggunakan Metode TOPSIS | Nuri Guntur Perdana & Tri Widodo (Seminar Nasional TIK / SEMANTIK 2013) | (https://d1wqtxts1xzle7.cloudfront.net/49948066/SPK_penerimaan_beasiswa_TOPSIS-libre.pdf?1477697357=&response-content-disposition=inline%3B+filename%3DSistem_Pendukung_Keputusan_Pemberian_Bea.pdf&Expires=1794594779&Signature=VAHF7fZcqbCVw3TQvsDbSHUe7CDz6OmLGSLvOQFPhFHvntKydrbbjfT7KG1I4OhFp5V5PTSBMSfiuTpfo9CQnIJOe1nOMmn0iuOdkTJvAGIMUn7vZomyQf1-cs2wt-9A9KZJi~MIQCdxKv27pUTtdacb8wi3Q6MmsZ02qlb5QyZZCdSfEnfAwHSQRkhJEuaXMitbR1dD4J1jGLFZywCPdUl14lcmtb03G3VRTSlfQVCXqixo281oTMUqpAEmWyrhj9IHFXYRjBilTwp6~TAnTh0rMYw~iqRhyzBiH8ZE8zYDGHX46MFnwcS5J0oeraMf5JEfve3gDUCVt4vl~dUmXg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) | 12 November 2026 |
+| S2 |  SISTEM PENDUKUNG KEPUTUSAN PENERIMAAN BEASISWA PADA SMK 2  SOJOL MENGGUNAKAN METODE AHP | Jurnal Elektronik Sistem Informasi dan Komputer (JESIK), Volume 4, Nomor 2, Tahun 2018. | (https://jesik.web.id/index.php/jesik/article/view/86/64) | 12 November 2026 |
 
 ### Tabel aturan IF-THEN
 
