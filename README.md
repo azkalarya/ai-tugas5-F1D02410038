@@ -29,7 +29,9 @@ python sistem_pakar.py --uji      # jalankan semua kasus uji dan cek hasilnya
 | `kb_beasiswa.json` | Basis pengetahuan: sumber, pertanyaan, 5 aturan IF-THEN |
 | `sistem_pakar.py` | Program FC: tanya fakta, jalankan aturan, tampilkan kesimpulan dan alasan |
 | `kasus_uji.json` | 3 kasus uji beserta kesimpulan yang diharapkan |
-| `screenshots/` | Tangkapan layar hasil menjalankan program |
+| `kasus1.png` | Tangkapan layar hasil menjalankan program kasus 1 |
+| `kasus2.png` | Tangkapan layar hasil menjalankan program kasus 2 |
+| `kasus3.png` | Tangkapan layar hasil menjalankan program kasus 3 |
 
 ## 3. Sumber dan Aturan
 
